@@ -94,13 +94,13 @@
 .nam{
     font-size: 50px;
     font-weight: 750;
-    color: aqua;
+    color: #469cf2;
     line-height: 40px;
-    background: linear-gradient(30deg,#ff40e6, #40f2ff);
-    /* background-clip:text;
-    -webkit-text-fill-color:transparent; */
-    background-clip:text ;
-    color: transparent;
+    /* background: linear-gradient(30deg,#ff40e6, #40f2ff); */
+    /* background-clip:text; */
+    /* -webkit-text-fill-color:transparent; */
+    /* background-clip:text ; */
+    /* color: transparent; */
 }
 h3{
     font-size: 30px;
@@ -381,6 +381,7 @@ p{
     height: auto;
     width: 100%;
     background: rgb(228, 228, 228);
+    overflow: hidden;
 }
 .phn, .addr, .mail{
     display: flex;
